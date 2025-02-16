@@ -1,0 +1,195 @@
+.dashboardContainer{
+  overflow: auto;
+}
+.form{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  animation: tween 0.5s ease-in-out;
+}
+.Registerbuttonclass{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input,button{
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+input{
+  border: 1px solid black;
+}
+button{
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #0056D2;
+  border: none;
+  color: white;
+}
+input:focus{
+  border: 2px blue solid;
+  outline: none;
+}
+button:hover{
+  transform: scale(1.1);
+  background-color: #004bb5;
+}
+@keyframes tween{
+  from{
+      opacity: 0;
+      transform: translateY(+20px);
+  }
+  to{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+.dashboardContainerChild{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 100%;
+}
+.addQuestion{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.dashboardFormButton,.quizChildContainerButton{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 5px 5px;
+  max-width: 100%;
+}
+select{
+  font-size: 16px;
+  border-radius: 10px;
+}
+.yourQuizContainer{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.editQuiz{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 100%;
+}
+.editQuiz label{
+  width: 100px;
+  text-align: left;
+}
+.editQuiz input{
+  flex: 1;
+}
+.editForm{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.editQuizOption{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.editQuizQuestion{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+}
+.quizOption{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.editFormDetails{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.allEditQuestion{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+p{
+  font-size: 18px;
+  margin: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+ul{
+  margin: 5px 5px;
+}
+.everyQuiz{
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2:hover{
+  text-decoration: underline;
+}
+.quizChildContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.quizDetails{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.quizElements{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+  overflow: visible;
+}
+h3{
+  padding: 0;
+  margin: 8px 8px;
+  margin-left: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.logout{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.message{
+  color: red;
+  text-align: center;
+  margin-top: 30px;
+}
