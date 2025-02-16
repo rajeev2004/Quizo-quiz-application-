@@ -8,7 +8,7 @@ Quizo is an interactive quiz application built with Vite, React, Node.js, and Ex
 -  Users can **add, delete, and edit quizzes** 
 -  Responsive and modern UI
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Frontend:** React, Vite
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL
@@ -49,6 +49,5 @@ Quizo is an interactive quiz application built with Vite, React, Node.js, and Ex
 You can check out the live website [here](https://rajeev2004.github.io/Quizo-quiz-application-/#/).
 
 ![Quizo Screenshot](https://raw.githubusercontent.com/rajeev2004/Quizo-quiz-application-/refs/heads/main/src/assets/Screenshot%202025-02-16%20185413.png?raw=true)
-## 📦 Installation & Setup
 
 
